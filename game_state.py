@@ -1,0 +1,14 @@
+from dataclasses import dataclass
+
+@dataclass
+class GameState:
+    round_number: int = 1
+    user_score: int = 0
+    bot_score: int = 0
+
+    user_bomb_used: bool = False
+    bot_bomb_used: bool = False
+
+    last_user_move: str | None = None
+
+    game_over: bool = False

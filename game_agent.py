@@ -12,7 +12,7 @@ from enums import ValidationStatus
 # Deterministic Test Configuration
 # -------------------------------
 # Set to True for reproducible testing
-TEST_MODE = True 
+TEST_MODE = False 
 
 # Fixed bot moves when TEST_MODE is enabled
 TEST_BOT_MOVES = ["rock", "paper", "scissors"]
